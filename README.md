@@ -27,3 +27,20 @@ CX 3 1
 lnn_stim_circuit = lnn_circuit(stim_circuit)
 print(lnn_stim_circuit)
 ```
+
+```
+H 2
+TICK
+CX 2 1
+TICK
+CX 2 3
+TICK
+SWAP 1 2
+TICK
+CX 0 1 2 3
+TICK
+SWAP 2 1
+TICK
+CX 0 1
+TICK
+```
