@@ -23,11 +23,11 @@ CX 3 0
 CX 3 1
 '''
 )
-
+```
+```
 lnn_stim_circuit = lnn_circuit(stim_circuit)
 print(lnn_stim_circuit)
 ```
-
 ```
 H 2
 TICK
