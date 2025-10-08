@@ -3,9 +3,9 @@ linear-nearest-neighbour (lnn) architecture using `qiskit` synthesis protocols.
 
 # Installation
 `swapnetwork` can be installed like any python package from the pyproject.toml
-file. For example, using the `pdm` package manager, in the root dir run
+file. For example, using the `uv` package manager by running
 ```
-pdm install .
+uv add <path/to/cloned/repo>
 ```
 
 # Usage
